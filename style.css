@@ -57,12 +57,12 @@ nav > a:hover {
 /* estilo da imagem de fundo e do overlay*/
 
 .wallpaper {
-  background-image: url(img/wallpape_fundo.jpg);
+  background-image: url(img/wallpaper_quarto.avif);
   background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 800px;
+  height: 850px;
 }
 
 .overlay {
@@ -73,11 +73,195 @@ nav > a:hover {
   height: 100%;
 }
 
+/* estilo da seção home */
+.home {
+  text-align: center;
+  padding-top: 65px;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home > h1 {
+  color: var(--cor06);
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-family: var(--font_titulo);
+}
+
+.home > h2 {
+  color: var(--cor04);
+  font-size: 1.1em;
+  margin: 10px;
+  font-family: var(--font_texto);
+}
+
+/*estilo geral*/
+main {
+  width: 90%;
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+/*estilo do about me*/
+.aboutme h1 {
+  color: var(--cor06);
+  font-size: 2.5em;
+  font-family: var(--font_titulo);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.aboutme img {
+  align-items: center;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  width: 200px;
+  transition: 0.3s;
+}
+
+.aboutme > img:hover {
+  scale: 1.3;
+}
+
+.aboutme p {
+  color: var(--cor04);
+  padding: 20px;
+  margin: 15px 0px;
+  text-align: justify;
+  margin-bottom: 120px;
+  line-height: 2em;
+  font-size: 1em;
+  font-weight: normal;
+  background-color: var(--cor01);
+  border-radius: 15px;
+  text-align: justify;
+  font-family: var(--font_texto);
+}
+
+/* estilo da área contatos*/
+.contatos h1 {
+  font-family: var(--font_titulo);
+  font-size: 2.5em;
+  color: var(--cor06);
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.contatos {
+  font-family: var(--font_texto);
+  font-size: 1.1em;
+  color: var(--cor04);
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/* AQUI É A PARTE QUE CONTEM A ESTILIZAÇÃO DO MEU CÓDIGO REFERENTE AS IMGENS E LINKS DA PÁGINA CONTATOS */
+
+form {
+  display: inline-block;
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form textarea {
+  width: 100%;
+  max-width: 500px;
+}
+
+section {
+  margin: 20px;
+}
+
+/* Estilização do item da lista */
+.social-links li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 17px;
+}
+
+.social-links a {
+  text-decoration: none;
+  font-size: 1.3em;
+  font-family: var(--font_titulo);
+  color: var(--cor06);
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+  padding: 05px;
+}
+
+.social-links a:hover {
+  color: var(--cor05);
+}
+
+.social-link {
+  transition: 0.3s;
+}
+
+.social-link:hover {
+  scale: 1.5;
+}
+
 /*estilo do rodapé do projeto*/
 footer {
   background-color: var(--cor06);
+  color: var(--cor04);
   padding: 5px;
+  margin-top: 80px;
   font-family: var(--font_titulo);
   font-size: 1em;
   text-align: center;
+}
+
+.imagem {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(41, 41, 41, 0.815);
+  color: var(--cor6);
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.411);
+  border-bottom: 5px solid var(--cor6);
+  border-radius: 5px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.img {
+  padding-top: 8px;
+  width: 40%;
+  height: auto;
+  margin-bottom: 12px;
+  transition: 0.3s;
+}
+
+.img:hover {
+  scale: 1.5;
+}
+
+.textlogo {
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.box-cv {
+  display: flex; /* Ativa o Flexbox */
+  flex-wrap: wrap; /* Permite quebrar linha se necessário */
+  gap: 16px; /* Espaço entre os itens */
+  justify-content: center; /* Centraliza os itens */
 }

@@ -8,15 +8,113 @@
   </head>
   <body>
     <nav>
-      <a href="">Home</a>
-      <a href="">Sobre Mim</a>
+      <a href="#casa">Home</a>
+      <a href="#aboutme">Sobre Mim</a>
       <a href="">Projetos</a>
-      <a href="">Contatos</a>
+      <a href="#contato">Contatos</a>
     </nav>
 
-    <div class="wallpaper">
+    <div id="casa" class="wallpaper">
       <div class="overlay"></div>
     </div>
+
+    <header class="home">
+      <h2>Olá, visitante! &#x1F44C;</h2>
+      <h1>Meu nome é Camilly</h1>
+      <h2>Desenvolvedora Fron-end</h2>
+    </header>
+
+    <main>
+      <section id="aboutme" class="aboutme">
+        <h1>Sobre mim:</h1>
+        <img src="img/Izumi_Miyamura.webp" alt="minha foto perfil" />
+
+        <article>
+          <p>
+            Sou um desenvolvedor front-end júnior, apaixonado por criar
+            interfaces intuitivas e funcionais para os usuários. Tenho sólidos
+            conhecimentos em **HTML** e **CSS**, o que me permite construir
+            páginas bem estruturadas e estilizadas, sempre atento aos detalhes e
+            à experiência visual. Com o uso do **Bootstrap**, consigo
+            desenvolver layouts responsivos de forma ágil, garantindo que os
+            projetos se adaptem perfeitamente a diferentes dispositivos e
+            tamanhos de tela.
+            <br />
+            <br />
+            Atualmente, estou aprimorando minhas habilidades em **JavaScript**,
+            trazendo mais interatividade e dinamismo para os meus projetos.
+            Gosto de implementar funcionalidades que tornam os sites mais
+            atrativos e fáceis de usar. Além disso, sou familiarizado com
+            **Git** e **GitHub**, o que me ajuda a manter a organização e a
+            colaborar em equipes, gerenciando versões de código e contribuindo
+            de forma eficiente para projetos.
+            <br />
+            <br />
+            Tenho uma paixão por tecnologia e busco constantemente aprender e
+            crescer como desenvolvedor. Meu objetivo é continuar evoluindo no
+            desenvolvimento front-end enquanto dou os primeiros passos rumo ao
+            desenvolvimento full-stack, ampliando minhas possibilidades e
+            criando projetos que unam design e funcionalidade de maneira
+            excepcional.
+          </p>
+        </article>
+      </section>
+
+      <section id="contato" class="contatos">
+        <div class="item">
+          <h1>Contatos:</h1>
+          <p>Envie-me uma mensagem através desse formulário.</p>
+          <form action="" method="post" target="_blank">
+            <label for="mensagem">mensagem:</label>
+            <textarea id="mensagem" name="text" rows="4" cols="50"></textarea>
+            <br />
+            <button type="submit">Enviar via Email</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--links para minhas redes sociais-->
+    <ul class="social-links">
+      <li>
+        <img
+          class="social-link"
+          src="img/icone-linkedin.png"
+          alt="imagem do linkedim"
+        />
+        <a
+          href="https://www.linkedin.com/in/kaique-marlon-80580b33a/"
+          target="_blank"
+          >LinkedIn</a
+        >
+      </li>
+    </ul>
+
+    <!--links para minhas redes sociais-->
+    <ul class="social-links">
+      <li>
+        <img
+          class="social-link"
+          src="img/icone-instagram.png"
+          alt="imagem do instagram"
+        />
+        <a href="https://www.instagram.com/kmarlon_21/" target="_blank"
+          >Instagram</a
+        >
+      </li>
+    </ul>
+
+    <!--links para minhas redes sociais-->
+    <ul class="social-links">
+      <li>
+        <img
+          class="social-link"
+          src="img/icone-github.png"
+          alt="imagem do github"
+        />
+        <a href="https://github.com/Kmarlon21" target="_blank">GitHub</a>
+      </li>
+    </ul>
 
     <footer>&copy;CAMILLY, todos os direitos reservados.</footer>
   </body>
