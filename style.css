@@ -186,6 +186,13 @@ section {
 }
 
 /* estilização dos cards que contem os projetos*/
+
+span {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--cor05);
+}
+
 .container {
   max-width: 1000px;
   margin: 20px auto;
@@ -243,6 +250,8 @@ section.projectst > h1 {
   color: var(--cor04);
   font-family: var(--font_texto);
   font-size: 0.9em;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .projeto a {
