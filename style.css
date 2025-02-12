@@ -374,9 +374,10 @@ footer {
   font-family: var(--font_titulo);
   font-weight: bold;
 }
+
 .logo-grid {
   position: absolute;
-  top: 70%;
+  top: 55%; /* Ajuste fino para centralizar melhor */
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -386,6 +387,28 @@ footer {
   gap: 20px;
   padding: 20px;
   border-radius: 10px;
+  width: 90%;
+  max-width: 800px;
+  min-width: 300px;
+  padding-top: 100px;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .logo-grid {
+    top: 60%; /* Levemente mais para baixo para melhor ajuste */
+    flex-direction: row; /* Mantém os itens lado a lado */
+    gap: 10px;
+    width: 95%;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-grid {
+    top: 65%; /* Ajusta ainda mais em telas muito pequenas */
+    flex-direction: column; /* Empilha os logos */
+    gap: 5px;
+  }
 }
 
 .box-cv {
