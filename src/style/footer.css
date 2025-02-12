@@ -1,0 +1,10 @@
+/* Rodapé */
+footer {
+  background-color: var(--cor06);
+  color: var(--cor04);
+  padding: 10px;
+  text-align: center;
+  font-family: var(--font_titulo);
+  font-size: 1em;
+  margin-top: 50px;
+}
