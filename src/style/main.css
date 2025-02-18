@@ -277,10 +277,9 @@ section.projectst > h1 {
   background-color: var(--cor02);
   color: var(--cor05);
   box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.411);
-  border-bottom: 5px solid var(--cor6);
+  border-bottom: 5px solid var(--cor05);
   border-radius: 5px;
-  margin-bottom: 40px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .img {
